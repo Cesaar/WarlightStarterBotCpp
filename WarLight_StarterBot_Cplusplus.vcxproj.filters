@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Bot">
+      <UniqueIdentifier>{7d08a297-fe13-40fe-bc38-b78571009fcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Move">
+      <UniqueIdentifier>{3313676a-81ea-4aeb-9a29-4b70afdd3eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{e0d33ad2-5b88-477e-8bf7-22425e347020}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperRegion.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Region.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaceArmiesMove.h">
+      <Filter>Move</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackTransferMove.h">
+      <Filter>Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Move.h">
+      <Filter>Move</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot.h">
+      <Filter>Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="BotParser.h">
+      <Filter>Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="BotState.h">
+      <Filter>Bot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WarLight_StarterBot_Cplusplus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperRegion.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Region.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="Move.cpp">
+      <Filter>Move</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaceArmiesMove.cpp">
+      <Filter>Move</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackTransferMove.cpp">
+      <Filter>Move</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot.cpp">
+      <Filter>Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="BotParser.cpp">
+      <Filter>Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="BotState.cpp">
+      <Filter>Bot</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
